@@ -1,7 +1,9 @@
 import React from "react"
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
  
 function About(props) {
   return (
+    <Route>
     <div id="section" class="container-fluid">
     <div class="row">
         <div class="col-9 mt-4 p-3">
@@ -26,6 +28,7 @@ function About(props) {
         </div>
     </div>
   </div>
+  </Route>
   )
 }
  
