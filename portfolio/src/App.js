@@ -20,18 +20,6 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
 
-       
-  
-        {/* <div className="navigation">
-          <div className="navigation-sub">
-                                          
-    
-            <Link to="/" className="item">About</Link>
-            <Link to="/contact" className="item">Contact</Link>
-            <Link to="/projects" className="item">Projects</Link>
-  
-          </div>
-        </div> */}
       </div>
       <Footer />
     </BrowserRouter>

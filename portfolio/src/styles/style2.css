@@ -28,7 +28,8 @@ p{
 }
 
 .col-9{
-    background-color: #a9c7ec;
+    /* background-color: #a9c7ec; */
+    background-color: rgba(222,222,222,.5);
 
 }
 
