@@ -9,7 +9,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import './App.css';
 import './styles/styles.css';
-import './styles/style2.css';
+// import './styles/style2.css';
  
 function App() {
   return (

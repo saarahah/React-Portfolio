@@ -2,21 +2,22 @@ import React from "react";
 import Thumbnail from "./Thumbnail.js"; // Import the Thumbnail component
 import "../App";
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Unheard from "../images/unheard.png"
 
 function Projects(props) {
   return (
     <Route>
-    <div id="section" class="container-fluid">
-      <div class="row">
+    <div id="section" className="container-fluid">
+      <div className="row">
         <div class="col-9 mt-4 p-3">
           <h1>Portfolio</h1>
           <hr />
           <figure>
-            <table class="imageTable">
+            <table className="imageTable">
               <tbody>
                 <tr>
                   <th scope="col">
-                    <div class="box">
+                    <div className="box">
                    <Thumbnail image="../images/unheard.png" />
                    <div class ="text">
                      <h2>Unheard Stories</h2>
