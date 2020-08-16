@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 
 function Nav(props) {
     return (
@@ -11,7 +11,7 @@ function Nav(props) {
           <Link id="header" className="navbar-brand text-white" to="/">Sarah Ferguson</Link>
             <div  className="navbar-nav justify-content-end">
               <div id="bottomNav" className="container">
-              <Link className="nav-item nav-Link" to="/">About <span className="sr-only">(current)</span></Link>
+              <Link className="nav-item nav-Link" to="/about">About <span className="sr-only">(current)</span></Link>
               <p>|</p>
               <Link className="nav-item nav-Link" to="/projects">Portfolio</Link>
               <p>|</p>
