@@ -19,10 +19,10 @@ function App() {
     <BrowserRouter>
       <Nav />
       <div className="app">
-        <Route exact path= "/" component={About} />
-        <Route path= "/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/projects" component={Projects} />
+        <Route exact path= "/React-Portfolio" component={About} />
+        <Route path= "/React-Portfolio/about" component={About} />
+        <Route exact path="/React-Portfolio/contact" component={Contact} />
+        <Route exact path="/React-Portfolio/projects" component={Projects} />
       </div>
       <Footer />
     </BrowserRouter>
