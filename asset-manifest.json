@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.242dac1d.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.45a385e8.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.45a385e8.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.8e9d764d.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.d3774753.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.d3774753.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0ad08de7.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0ad08de7.js.map",
-    "static/js/2.21d74d8a.chunk.js": "/React-Portfolio/static/js/2.21d74d8a.chunk.js",
-    "static/js/2.21d74d8a.chunk.js.map": "/React-Portfolio/static/js/2.21d74d8a.chunk.js.map",
+    "static/js/2.a56e78a4.chunk.js": "/React-Portfolio/static/js/2.a56e78a4.chunk.js",
+    "static/js/2.a56e78a4.chunk.js.map": "/React-Portfolio/static/js/2.a56e78a4.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.086015ceafab9ecd05d56eb1021d4eea.js": "/React-Portfolio/precache-manifest.086015ceafab9ecd05d56eb1021d4eea.js",
+    "precache-manifest.e482ac4e4cf1ddd1bb6f2e9f9e0fa3e0.js": "/React-Portfolio/precache-manifest.e482ac4e4cf1ddd1bb6f2e9f9e0fa3e0.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.242dac1d.chunk.css.map": "/React-Portfolio/static/css/main.242dac1d.chunk.css.map",
-    "static/js/2.21d74d8a.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.21d74d8a.chunk.js.LICENSE.txt",
+    "static/css/main.8e9d764d.chunk.css.map": "/React-Portfolio/static/css/main.8e9d764d.chunk.css.map",
+    "static/js/2.a56e78a4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a56e78a4.chunk.js.LICENSE.txt",
+    "static/media/codequiz.png": "/React-Portfolio/static/media/codequiz.665b7b09.png",
+    "static/media/cyburger.jpg": "/React-Portfolio/static/media/cyburger.0459ac37.jpg",
+    "static/media/employeetracker.PNG": "/React-Portfolio/static/media/employeetracker.0343ee83.PNG",
     "static/media/logo.svg": "/React-Portfolio/static/media/logo.5d5d9eef.svg",
-    "static/media/styles.css": "/React-Portfolio/static/media/resizebackground.05efaea5.jpg"
+    "static/media/mehalftone.png": "/React-Portfolio/static/media/mehalftone.1537025d.png",
+    "static/media/nightlife.PNG": "/React-Portfolio/static/media/nightlife.4a1cc409.PNG",
+    "static/media/readme.PNG": "/React-Portfolio/static/media/readme.8f7ca0f2.PNG",
+    "static/media/index.css": "/React-Portfolio/static/media/resizebackground.05efaea5.jpg",
+    "static/media/unheard.png": "/React-Portfolio/static/media/unheard.3228d10a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0ad08de7.js",
-    "static/js/2.21d74d8a.chunk.js",
-    "static/css/main.242dac1d.chunk.css",
-    "static/js/main.45a385e8.chunk.js"
+    "static/js/2.a56e78a4.chunk.js",
+    "static/css/main.8e9d764d.chunk.css",
+    "static/js/main.d3774753.chunk.js"
   ]
 }
