@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 // import { StyleSheet, Text, View } from 'react-native';
-import "../styles/styles.css"
+import "./About.css"
 
-const styleObj = {float: "left",
+const styleObj = {
+    float: "left",
   height: "10%",
   width: "10%",
   width: "fit-content",
@@ -23,7 +24,7 @@ class About extends Component {
             <hr />
         <div className="holder">
 
-        <img src={require("./images/mehalftone.png")} 
+        <img src={require("../../images/mehalftone.png")} 
         className="aboutImage mr-4"
           alt="me" />
 

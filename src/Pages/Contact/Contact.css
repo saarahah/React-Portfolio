@@ -1,0 +1,87 @@
+
+button{
+    background-color:#0a1164;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+h1{
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0a1164;
+}
+
+@media screen and (max-width: 980px) {
+    
+    #section{
+        width: 92%;
+        font-size: 85%;
+        margin-left: 2%;
+    }
+    
+    .navbar-nav a{
+        padding-top: 8px;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    
+    #main{
+        
+    
+      background-position: top;
+      background-size: fill;
+       
+    }
+    
+     }
+    
+    @media screen and (max-width: 768px) { 
+        
+        #section{
+            width: 126%;
+            font-size: 85%;
+             margin-left: 2%; 
+        }
+    }
+    
+    @media screen and (max-width: 640px) { 
+    
+    #main{
+        justify-content: center;
+    }
+        
+        
+     #section{ 
+        width: 124%;
+        font-size: 85%;
+        margin-top: 35px;  
+        /* justify-content: center;  */
+    }
+    
+    #header {
+     
+        width: 100%;
+        text-align: center;
+        /* justify-content: center; */
+    } 
+    
+     .navbar-nav {
+        flex: auto;
+        margin-top: 50px; 
+        position: absolute;  
+        width: 100%;
+        background-color: white;   
+    }
+    
+    .footer{
+       height: 20px;
+    }
+    
+    }

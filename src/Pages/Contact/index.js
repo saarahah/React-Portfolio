@@ -1,9 +1,9 @@
 import React from "react"
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import "./Contact.css"
+
  
 function Contact(props) {
   return (
-    <Route>
     <div id="section" className="container-fluid">
     <div className="row">
         <div className="col-9 bg-light mt-4 p-3">
@@ -32,7 +32,7 @@ function Contact(props) {
   </div>
   </div>
   </div>
-  </Route>
+
   )
 }
  
