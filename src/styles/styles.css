@@ -1,11 +1,11 @@
-* {
+/* * {
     -webkit-font-smoothing: antialiased;
     outline: none;
     box-sizing: border-box;
-}
+} */
 
 body{
-    background-image: url("../images/resizebackground.jpg");
+    background-image: url("../../src/components/images/resizebackground.jpg");
     position: center center;
     overflow: hidden;
     /* max-width: auto; */
@@ -16,11 +16,6 @@ body{
     background-repeat: no-repeat;
     left: 0px;
     /* background-size: cover; */
-}
-
-.jquery-ripples {
-    position: relative;
-    z-index: 0;
 }
 
 hr{
@@ -89,13 +84,10 @@ h1{
     /* opacity: 0.2; */
 }
 
-/* .holder{
-    opacity: 1;
-} */
 
 .col-9{
     /* background-color: #a9c7ec; */
-    background-color: rgba(89, 146, 221, 0.1);
+    background-color: rgba(121, 168, 230, 0.712);
 }
 
 p{
@@ -118,31 +110,31 @@ a {
 
  @media screen and (max-width: 980px) {
 
-/* .aboutImage{
+.aboutImage{
     
     height: 40%;
     width: 40%;
-} */
+}
 
-/* #section{
+#section{
     width: 92%;
     font-size: 85%;
     margin-left: 2%;
-} */
+}
 
-/* .navbar-nav a{
+.navbar-nav a{
     padding-top: 8px;
     font-weight: normal;
     font-size: 14px;
-} */
+}
 
-/* body{
+body{
     
 
   background-position: top;
   background-size: fill;
    
-} */
+}
 
  }
 

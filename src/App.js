@@ -8,17 +8,16 @@ import About from './components/About';
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import './App.css';
-import './styles/styles.css';
 // import './styles/style2.css';
+import './styles/styles.css';
+
  
 function App() {
   return (
     <BrowserRouter>
       <Nav />
       <div className="App">
-
-        <Route exact path="/" component={About} />
-        <Route exact path="/about" component={About} />
+        <Route exact path= "/" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/projects" component={Projects} />
 

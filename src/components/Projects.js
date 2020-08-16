@@ -1,12 +1,11 @@
 import React from "react";
 import Thumbnail from "./Thumbnail.js"; // Import the Thumbnail component
 import "../App";
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
-import Unheard from "../images/unheard.png"
+import "../styles/style2.css"
 
 function Projects(props) {
+
   return (
-    <Route>
     <div id="section" className="container-fluid">
       <div className="row">
         <div class="col-9 mt-4 p-3">
@@ -18,7 +17,10 @@ function Projects(props) {
                 <tr>
                   <th scope="col">
                     <div className="box">
-                   <Thumbnail image="../images/unheard.png" />
+                    <a href="https://quiet-meadow-99455.herokuapp.com/user/login">
+                    <img src={require("./images/unheard.png")} 
+                           alt="Unheard Stories" />
+                           </a>
                    <div class ="text">
                      <h2>Unheard Stories</h2>
                      </div>
@@ -27,79 +29,84 @@ function Projects(props) {
                 
 
               
-                  <th scope="col">
-                    <div class="box">
-                   <Thumbnail image="../images/dayplanner.png" />
-                   <div class ="text">
-                     <h2>Dayplanner</h2>
-                     </div>
-                   </div>
-                   </th>
-                   </tr>
-
-                   <tr>
-                  <th scope="col">
-                    <div class="box">
-                   <Thumbnail image="../images/codequiz.png" />
+                   <th scope="col">
+                    <div className="box">
+                    <a href="https://saarahah.github.io/Javascript-Coding-Quiz-Homework">
+                    <img src={require("./images/codequiz.PNG")} 
+                           alt="Code Quiz" />
+                           </a>
                    <div class ="text">
                      <h2>Code Quiz</h2>
                      </div>
                    </div>
                    </th>
-                
+                </tr>
+
+
+                 <tr>
+                   <th scope="col">
+                    <div className="box">
+                    <a href="https://boaardz56.github.io/Nightlife/">
+                    <img src={require("./images/nightlife.PNG")} 
+                           alt="Code Quiz" />
+                           </a>
+                   <div class ="text">
+                     <h2>Nightlife</h2>
+                     </div>
+                   </div>
+                   </th>
 
               
                   <th scope="col">
                     <div class="box">
-                   <Thumbnail image="../images/cyburger.jpg" />
+                    <a href="https://protected-coast-08381.herokuapp.com/">
+                    <img src={require("./images/cyburger.jpg")} 
+                           alt="Code Quiz" />
+                           </a>
                    <div class ="text">
                      <h2>The Cyburger</h2>
                      </div>
                    </div>
                    </th>
-                   </tr>
+                </tr>
 
-                   <tr>
-                  <th scope="col">
-                    <div class="box">
-                   <Thumbnail image="../images/nightlife.png" />
-                   <div class ="text">
-                     <h2>NightLife</h2>
-                     </div>
-                   </div>
-                   </th>
-                
 
-              
-                  <th scope="col">
-                    <div class="box">
-                   <Thumbnail image="../images/readme.png" />
+
+                <tr>
+                   <th scope="col">
+                    <div className="box">
+                    <a href="https://www.youtube.com/watch?v=9Rc7ZaRTz20&feature=youtu.be">
+                    <img src={require("./images/readme.PNG")} 
+                           alt="Code Quiz" />
+                           </a>
                    <div class ="text">
                      <h2>Readme Generator</h2>
                      </div>
                    </div>
                    </th>
-                   </tr>
 
-
-                   <tr>
-                  <th scope="col">
-                    <div class="box">
-                   <Thumbnail image="../images/employeetracker.png" />
+                   <th scope="col">
+                    <div className="box">
+                    <a href="https://www.youtube.com/watch?v=wmikwP4H0H0&feature=youtu.be">
+                    <img src={require("./images/employeetracker.PNG")} 
+                           alt="Employee Tracker" />
+                           </a>
                    <div class ="text">
-                     <h2>NightLife</h2>
+                     <h2>Employee Tracker</h2>
                      </div>
                    </div>
                    </th>
-                
-</tr>
+                </tr>
+
+
+
               </tbody>
             </table>
           </figure>
         </div>
       </div>
     </div>
-    </Route>
+
   );
 }
 

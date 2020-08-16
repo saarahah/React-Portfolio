@@ -4,9 +4,9 @@ import React from "react"
 function Footer(props) {
   return (
 
-    <footer class="footer">
-    <div class="container text-white text-center">
-          <p class="pt-3">© Copyright 2020</p>
+    <footer className="footer">
+    <div className="container text-white text-center">
+          <p className="pt-3">© Copyright 2020</p>
     </div>
  </footer>
 
