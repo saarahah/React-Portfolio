@@ -8,14 +8,14 @@ function Nav(props) {
 
         <nav className="navbar navbar-expand navbar-light">
         <div className="container-fluid">
-          <Link id="header" className="navbar-brand text-white" to="/">Sarah Ferguson</Link>
+          <Link id="header" className="navbar-brand text-white" to="/React-Portfolio">Sarah Ferguson</Link>
             <div  className="navbar-nav justify-content-end">
               <div id="bottomNav" className="container">
-              <Link className="nav-item nav-Link" to="/about">About <span className="sr-only">(current)</span></Link>
+              <Link className="nav-item nav-Link" to="/React-Portfolio/about">About <span className="sr-only">(current)</span></Link>
               <p>|</p>
-              <Link className="nav-item nav-Link" to="/projects">Portfolio</Link>
+              <Link className="nav-item nav-Link" to="/React-Portfolio/projects">Portfolio</Link>
               <p>|</p>
-              <Link className="nav-item nav-Link" to="/contact">Contact</Link>          
+              <Link className="nav-item nav-Link" to="/React-Portfolio/contact">Contact</Link>          
             </div>
             </div>
         </div>
