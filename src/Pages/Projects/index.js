@@ -30,12 +30,12 @@ function Projects(props) {
               
                    <th scope="col">
                     <div className="box">
-                    <a href="https://saarahah.github.io/Javascript-Coding-Quiz-Homework">
-                    <img src={require("../../images/codequiz.png")} 
-                           alt="Code Quiz" />
+                    <a href="http://designvision.herokuapp.com/">
+                    <img src={require("../../images/designvis.PNG")} 
+                           alt="Design Vision" />
                            </a>
                    <div class ="text">
-                     <h2>Code Quiz</h2>
+                     <h2>Design Vision</h2>
                      </div>
                    </div>
                    </th>
@@ -92,6 +92,20 @@ function Projects(props) {
                            </a>
                    <div class ="text">
                      <h2>Employee Tracker</h2>
+                     </div>
+                   </div>
+                   </th>
+                </tr>
+
+                <tr>
+                <th scope="col">
+                    <div className="box">
+                    <a href="https://saarahah.github.io/Javascript-Coding-Quiz-Homework">
+                    <img src={require("../../images/codequiz.png")} 
+                           alt="Code Quiz" />
+                           </a>
+                   <div class ="text">
+                     <h2>Code Quiz</h2>
                      </div>
                    </div>
                    </th>
